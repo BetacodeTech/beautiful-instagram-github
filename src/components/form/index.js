@@ -45,10 +45,10 @@ export default function FormDialog() {
     return (
         <div>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-                <DialogTitle id="form-dialog-title">Snippet</DialogTitle>
+                <DialogTitle id="form-dialog-title">Repository</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Please fill the form bellow to change the code snippet.
+                        Please fill the form bellow to change the github repository.
                     </DialogContentText>
                     <TextField
                         margin="dense"
