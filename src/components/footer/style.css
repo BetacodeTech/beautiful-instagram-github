@@ -1,0 +1,29 @@
+.container{
+    max-width: 1280px;
+    min-width: 900px;
+}
+.author {
+    margin-top: 10px;
+    color: #24292e;
+}
+
+.author .MuiListItemText-primary {
+    font-size: 25px;
+}
+
+.author .MuiListItemText-secondary {
+    color: #0366d6;
+    font-size: 20px;
+}
+
+.author .logo {
+    max-width: 180px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.auhtor .MuiAvatar-root {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
